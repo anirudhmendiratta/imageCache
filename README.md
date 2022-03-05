@@ -5,7 +5,7 @@ URL for the image must be specified. To get or delete images, specify the key in
 
 The following APIs are exposed:
 
-1. ####Put Image: `POST /image/<key>`
+1. #### Put Image: `POST /image/<key>`
 
    Request body (JSON format)
 ```
@@ -16,7 +16,7 @@ The following APIs are exposed:
    Creates or overwrites the bytes associated with key "bezos"
 
 
-2. ####Get Image: `GET /image/<key>`
+2. #### Get Image: `GET /image/<key>`
 * If key exists in map, returns status code 200 and bytes of the image associated with key in the response body 
 * If key does not exist, returns status code 404
 
@@ -42,7 +42,7 @@ Body:
 doesnotexist not found
 ```
 
-3. ####Delete Image: `POST /image/delete/<key>`
+3. #### Delete Image: `POST /image/delete/<key>`
 Deletes the image associated with key
 
 As a test:
