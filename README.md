@@ -7,7 +7,9 @@ The following APIs are exposed:
 
 1. #### Put Image: `POST /image/<key>`
 
-   Request body (JSON format)
+E.g. `POST /image/bezos`
+
+Request body: (JSON format)
 ```
     {
         "url": "https://pagesix.com/wp-content/uploads/sites/3/2022/01/jeff-bezos-new-years-lauren-sanchez719_.jpg",
